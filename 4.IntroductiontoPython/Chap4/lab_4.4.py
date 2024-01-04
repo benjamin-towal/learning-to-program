@@ -1,16 +1,4 @@
 
-
-# '''
-# marks = int(input('Enter your result: '))
-# if marks == 100:
-#     print("HD")
-# elif marks >= 85:
-#     print("High Distinction")
-# else:
-#     print("Reset your exam")
-# print()
-
-
 marks = eval(input('Enter your result: '))
 if marks == 100:
     print("You have gained High Distinction")
@@ -24,6 +12,3 @@ elif marks == 74:
     print("You have gained Satisfactory")
 elif marks >= 60:
     print("You have gained Satisfactory")
-
-
-print()
