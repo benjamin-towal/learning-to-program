@@ -1,6 +1,21 @@
-# (Game: add three numbers) The program in Listing 4.1 generates two integers and
-# prompts the user to enter the sum of these two integers. Revise the program to generate
-# three single-digit integers and prompt the user to enter the sum of these three
-# integers.
+'''
+Here Im going to ask the program to find the true or faulse
+STEPS:
+      1. Creat the suitable variable that prompts the user to enter an integer
+      2. If the number is a multiple of 5 the program display the result HiFive
+      3. If the number is divisible by 2, the program disply displays HiEven
+Program Run;
+Enter an integer: Integer 
+HiFive or HiEven      
+'''
 
-num_1, num_2, num3 = eval(input(""))
+number = eval(input('Enter an integer: '))
+if number % 5 == 0:
+    print("HiFive")
+if number % 2 == 0:
+    print("HiEven")
+if number % 2 != 0:
+    print("not equal too")
+
+
+print()
